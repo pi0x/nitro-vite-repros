@@ -1,0 +1,14 @@
+{
+  "name": "nitro-vite-runtime-config-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "start": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "nitro": "3.0.260603-beta",
+    "vite": "8.0.14"
+  }
+}
