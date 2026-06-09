@@ -30,7 +30,6 @@ export default defineConfig({
       build: {
         rolldownOptions: {
           input: './src/entry-server.ts',
-          plugins: [ssrVirtuals] // handles vite build
         }
       }
     }
