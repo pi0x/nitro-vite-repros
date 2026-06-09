@@ -5,10 +5,11 @@
   "scripts": {
     "build": "vite build",
     "dev": "vite",
-    "start": "node .output/server/index.mjs"
+    "preview": "vite preview"
   },
-  "dependencies": {
-    "nitro": "3.0.260603-beta",
-    "vite": "8.0.14"
+  "devDependencies": {
+    "nitro": "https://pkg.pr.new/nitro@06bddec",
+    "vite": "8.0.16",
+    "@types/node": "^25.9.2"
   }
 }
